@@ -1,0 +1,306 @@
+{
+  "public": {
+    "userNotFound": "المستخدم غير موجود",
+    "username": "اسم المستخدم",
+    "password": "كلمة المرور",
+    "cancel": "إلغاء",
+    "phone": "رقم الجوال",
+    "recharge": "إعادة شحن",
+    "rechargeTitle": "إعادة شحن رصيد العميل",
+    "rechargeAmountLabel": "المبلغ المراد إضافته:",
+    "confirmRecharge": "تأكيد الشحن",
+    "addNewUser": "إضافة مستخدم / عميل جديد",
+    "registeredUsers": "المستخدمين المسجلين في النظام",
+    "creditBalance": "رصيد الشراء الآجل (الدين)",
+    "role": "الدور",
+    "roleLabel": "الدور / الصلاحية:",
+    "saveUser": "حفظ المستخدم",
+    "creditLimit": "سقف الآجل (الحد)",
+    "action": "الإجراء",
+    "barcode": "الباركود",
+    "productName": "اسم المنتج",
+    "sellingPrice": "سعر البيع",
+    "difference": "الفارق:",
+    "denominationUnit": "فئة {{value}} ريال",
+    "roles": {
+      "cashier": "محاسب",
+      "inventoryManager": "مسؤول مخزن",
+      "reportsViewer": "مشرف تقارير",
+      "usersSupervisor": "مشرف مستخدمين",
+      "admin": "مسؤول نظام"
+    }
+  },
+  "LoginPage": {
+    "title": "نظام البقالة الذكي",
+    "subtitle": "سجل الدخول للمتابعة إلى لوحة التحكم",
+    "usernamePlaceholder": "أدخل اسم المستخدم",
+    "passwordPlaceholder": "أدخل كلمة المرور",
+    "verifying": "جاري التحقق...",
+    "login": "تسجيل الدخول",
+    "demoAccounts": "حسابات تجريبية افتراضية:"
+  },
+  "DrawerPage": {
+    "title": "إدارة صندوق الدرج النقدي",
+    "sessionStatus": "حالة الجلسة الحالية:",
+    "statusOpen": "مفتوح",
+    "statusClosed": "مغلق",
+    "exchangeCurrency": "تبديل عملات",
+    "currentBalance": "الرصيد الحالي بالدرج",
+    "distributionTitle": "توزيع وجرد الفئات النقدية",
+    "confirmAndOpen": "تأكيد ملء وفتح الدرج",
+    "clearAndClose": "تصفية وإغلاق الدرج",
+    "withdrawTitle": "إجراء عملية صرف من الدرج",
+    "withdrawAmount": "المبلغ المصروف:",
+    "withdrawReason": "سبب الصرف:",
+    "recordWithdraw": "تسجيل الصرف"
+  },
+  "InventoryPage": {
+    "title": "إدارة المستودع والمخزون",
+    "totalProducts": "إجمالي المنتجات:",
+    "addProduct": "+ إضافة منتج جديد",
+    "table": {
+      "cost": "التكلفة",
+      "smartDiscount": "التخفيض الذكي",
+      "availableStock": "المخزون المتاح",
+      "remaining": "متبقي",
+      "pcs": "قطعة",
+      "edit": "تعديل",
+      "delete": "حذف"
+    }
+  },
+  "ProfilePage": {
+    "userRole": "دور المستخدم:",
+    "phone": "رقم التواصل / الجوال:",
+    "userId": "المُعرف الشخصي (ID):",
+    "creditBalance": "الرصيد المتاح للبيع الآجل:"
+  },
+  "ReportsPage": {
+    "salesReport": "تقرير المبيعات",
+    "inventoryReport": "تقرير المخزون",
+    "debtsReport": "تقرير الديون",
+    "printReport": "طباعة التقرير️"
+  },
+  "SettingsPage": {
+    "table": {
+      "name": "الاسم"
+    },
+    "rechargeModal": {
+      "placeholder": "0.00"
+    }
+  },
+  "UsersPage": {
+    "title": "إدارة المستخدمين والموظفين",
+    "subtitle": "عرض قائمة حسابات الموظفين والأدوار الموكلة إليها",
+    "noUsersFound": "لا يوجد مستخدمون مسجلون في النظام حالياً",
+    "form": {
+      "phoneWithContact": "رقم الهاتف والتواصل:",
+      "roleLeader": "الوظيفة / الدور القيادي:",
+      "creditLimitSar": "سقف الآجل (SAR):"
+    },
+    "table": {
+      "name": "اسم المستخدم",
+      "phone": "رقم الهاتف",
+      "role": "الوظيفة / الدور",
+      "currentBalance": "الرصيد الحالي",
+      "debtBalance": "رصيد الدين",
+      "createdAt": "تاريخ الإنشاء"
+    }
+  },
+  "header": {
+    "welcome": "مرحباً بك،",
+    "availableDebtCredit": "رصيد الدين المتاح:"
+  },
+  "sidebar": {
+    "systemTitle": "نظام إدارة البقالة",
+    "expand": "توسيع القائمة",
+    "collapse": "إخفاء القائمة",
+    "logout": "تسجيل الخروج",
+    "nav": {
+      "invoices": "الفواتير ونقطة البيع",
+      "drawer": "إدارة الدرج",
+      "inventory": "المخزون والمنتجات",
+      "users": "المستخدمين والموظفين",
+      "reports": "التقارير والإحصائيات",
+      "settings": "الإعدادات",
+      "profile": "الملف الشخصي"
+    }
+  },
+  "pos": {
+    "invoiceTotal": "مبلغ الفاتورة:",
+    "riyal": "ريال",
+    "receivedDenominationsLabel": "الفئات المالية المقبوضة من الزبون:",
+    "totalReceived": "المبلغ المقبوض:",
+    "changeDue": "الفكة المستحقة:",
+    "confirmPaymentAndPrint": "تأكيد الدفع وطباعة الفاتورة",
+    "changePaymentMethod": "تغيير طريقة الدفع (شبكة / دَين)",
+    "cancelCashPayment": "إلغاء الدفع النقدي",
+    "errors": {
+      "insufficientTotalCash": "رصيد الدرج الإجمالي غير كافٍ لإرجاع الفكة!",
+      "shortageAmount": "المبلغ الناقص بالدرج:",
+      "depositNewCash": "إيداع مبلغ جديد بالدرج",
+      "unavailableDenominations": "المبلغ بالدرج كافٍ، ولكن لا تتوفر الفئات المالية المناسبة لإرجاع المتبقي بدقة!",
+      "unableToReturn": "تعذر إرجاع:",
+      "requestExchange": "طلب صرف (تبديل فئات بالدرج)"
+    }
+  },
+  "exchange": {
+    "instructions": "قم بتحديد الفئات المالية التي أخذتها من الدرج، والفئات الجديدة التي أدخلتها بدلاً عنها ليصبح مجموع القيمة متطابقاً:",
+    "takenFromDrawer": "أوراق أُخذت من الدرج:",
+    "addedToDrawer": "أوراق جديدة أُدخلت للدرج:",
+    "totalTaken": "إجمالي المأخوذ:",
+    "totalAdded": "إجمالي المضاف:",
+    "differenceNote": "(يجب أن يكون القيمة المأخوذة مساوية للمضافة تماماً)",
+    "confirmExchange": "تأكيد الصرف"
+  },
+  "changeModal": {
+    "title": "حساب المتبقي وإرجاع الفكة",
+    "total": "الإجمالي",
+    "received": "المستلم",
+    "changeDue": "المتبقي (الفكة)",
+    "breakdownTitle": "الفئات الواجب تسليمها للعميل:",
+    "countUnit": "عدد {{count}}",
+    "noDenominationsWarning": "تحذير: لا توجد فئات نقدية متوفرة بالدرج لتغطية الفكة بالكامل!",
+    "confirmButton": "تم التسليم وإتمام الفاتورة"
+  },
+  "exchangeModal": {
+    "title": "تبديل وصرف فئات العملة",
+    "takenTitle": "الفئات المسحوبة من الدرج:",
+    "addedTitle": "الفئات المضافة إلى الدرج:",
+    "withdrawn": "المسحوب:",
+    "added": "المضاف:",
+    "mismatchWarning": "تنبيه: يجب أن تكون قيمة الفئات المسحوبة مساوية تماماً لقيمة الفئات المضافة!",
+    "confirmButton": "تأكيد تبديل العملات",
+    "errors": {
+      "insufficientStockTitle": "خطأ بالرصيد",
+      "insufficientStockMsg": "عدد الفئات من فئة {{value}} ريال المطلوبة سحبها غير متوفرة بالدرج!",
+      "generalErrorTitle": "خطأ",
+      "defaultErrorMsg": "حدث خطأ أثناء التبديل",
+      "noteDetails": "تم سحب بقيمة {{taken}} وإدخال بقيمة {{added}}"
+    }
+  },
+  "denominations": {
+    "total": "الإجمالي:",
+    "grandTotal": "المجموع الكلي للفئات:"
+  },
+  "creditPaymentModal": {
+    "title": "تأكيد الدفع بالآجل (دَين)",
+    "selectClient": "اختر العميل:",
+    "defaultSelect": "-- اختر من القائمة --",
+    "clientOptionLabel": "{{username}} ({{phone}}) - الرصيد: {{balance}}",
+    "requiredAmount": "المبلغ المطلوب:",
+    "availableBalance": "الرصيد المتاح للعميل:",
+    "passwordLabel": "كلمة مرور العميل لتأكيد الشراء:",
+    "passwordPlaceholder": "أدخل كلمة المرور الخاصة بالعميل",
+    "confirm": "تأكيد الخصم والشراء",
+    "confirming": "جاري الاعتماد...",
+    "errors": {
+      "selectUser": "يرجى اختيار العميل",
+      "insufficientBalance": "الرصيد المتاح ({{balance}}) غير كافٍ لتغطية مبلغ الفاتورة",
+      "incorrectPassword": "كلمة المرور غير صحيحة",
+      "defaultError": "حدث خطأ أثناء معالجة عملية البيع بالآجل"
+    }
+  },
+  "invoiceTabs": {
+    "invoicePrefix": "فاتورة #",
+    "newTab": "+ جديد"
+  },
+  "productGrid": {
+    "searchPlaceholder": "ابحث برقم الباركود أو اسم المنتج...",
+    "availableStock": "{{count}} متوفر"
+  },
+  "printTemplate": {
+    "printDate": " تاريخ الطباعة"
+  },
+  "ui": {
+    "alertAgree": "حسناً",
+    "themeDark": "الوضع الداكن",
+    "themeLight": "الوضع الفاتح"
+  },
+  "alerts": {
+    "successTitle": "نجاح",
+    "errorTitle": "خطأ",
+    "warningTitle": "تنبيه",
+    "operationSuccessTitle": "تمت العملية",
+    "confirmDeleteProduct": "هل أنت تأكد من حذف هذا المنتج؟"
+  },
+  "drawerPage": {
+    "alerts": {
+      "openSuccess": "تم فتح وملء الدرج بنجاح",
+      "closeSuccess": "تمت تصفية وإغلاق الدرج بنجاح",
+      "withdrawSuccess": "تمت إضافة عملية الصرف بنجاح",
+      "exchangeSuccess": "تم تبديل الفئات وتحديث الدرج بنجاح"
+    }
+  },
+  "loginPage": {
+    "errors": {
+      "initDataError": "خطأ في استيراد البيانات الأولية:",
+      "emptyFields": "يرجى كتابة اسم المستخدم وكلمة المرور",
+      "invalidCredentials": "اسم المستخدم أو كلمة المرور غير صحيحة",
+      "loginFailed": "حدث خطأ أثناء محاولة تسجيل الدخول"
+    }
+  },
+  "reportsPage": {
+    "sales": {
+      "title": "تقرير المبيعات الشامل",
+      "headers": {
+        "invoiceNumber": "رقم الفاتورة",
+        "total": "المجموع",
+        "paymentMethod": "طريقة الدفع",
+        "date": "التاريخ"
+      },
+      "summary": {
+        "totalSales": "إجمالي المبيعات"
+      }
+    },
+    "inventory": {
+      "title": "تقرير جرد المستودع والمخزون",
+      "headers": {
+        "stock": "المخزون"
+      },
+      "summary": {
+        "totalCost": "إجمالي قيمة التكلفة بالمتجر"
+      }
+    },
+    "debts": {
+      "title": "تقرير ديون وأرصدة العملاء",
+      "headers": {
+        "availableBalance": "الرصيد المتاح"
+      },
+      "summary": {
+        "totalAvailableDebts": "إجمالي الأرصدة المتاحة للديون"
+      }
+    }
+  },
+  "usersPage": {
+    "alerts": {
+      "addUserSuccess": "تمت إضافة المستخدم بنجاح",
+      "addUserError": "حدث خطأ أثناء إضافة المستخدم",
+      "rechargeSuccess": "تم إعادة شحن الرصيد بنجاح",
+      "invalidAmountInfo": "يرجى إدخال مبلغ صحيح أكبر من الصفر"
+    }
+  },
+  "drawerService": {
+    "errors": {
+      "sessionAlreadyOpen": "يوجد جلسة درج مفتوحة بالفعل. يجب تصفية الدرج أولاً.",
+      "noOpenSession": "لا توجد جلسة درج مفتوحة للقيام بهذه العملية.",
+      "sessionClosedOrNotFound": "الجلسة غير موجودة أو مغلقة بالفعل."
+    },
+    "exchangeNote": "تبديل فئات نقدية: {{details}}"
+  },
+  "invoiceService": {
+    "errors": {
+      "outOfStock": "الكمية غير متوفرة للمنتج: {{productName}}",
+      "missingClientForCredit": "يجب تحديد العميل لعملية الدفع بالآجل"
+    }
+  },
+  "productService": {
+    "errors": {
+      "duplicateBarcode": "الباركود مكرر لمنتج آخر",
+      "productNotFound": "المنتج غير موجود",
+      "insufficientStock": "الكمية المتاحة غير كافية. المتبقي بالمخزن: {{available}}"
+    }
+  },
+  "useInvoiceTabsStore": {
+    "defaultTabTitle": "فاتورة 1"
+  }
+}

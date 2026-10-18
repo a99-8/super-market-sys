@@ -1,0 +1,305 @@
+{
+  "public": {
+    "userNotFound": "User not found",
+    "username": "Username",
+    "password": "Password",
+    "cancel": "Cancel",
+    "phone": "Phone Number",
+    "recharge": "Recharge",
+    "rechargeTitle": "Recharge Client Balance",
+    "rechargeAmountLabel": "Amount to Add:",
+    "confirmRecharge": "Confirm Recharge",
+    "addNewUser": "Add New User / Client",
+    "registeredUsers": "Registered Users in System",
+    "creditBalance": "Credit Purchase Balance (Debt)",
+    "roleLabel": "Role / Permission:",
+    "saveUser": "Save User",
+    "creditLimit": "Credit Limit",
+    "action": "Action",
+    "barcode": "Barcode",
+    "productName": "Product Name",
+    "sellingPrice": "Selling Price",
+    "difference": "Difference:",
+    "denominationUnit": "{{value}} SAR Bill",
+    "roles": {
+      "cashier": "Cashier",
+      "inventoryManager": "Inventory Manager",
+      "reportsViewer": "Reports Supervisor",
+      "usersSupervisor": "Users Supervisor",
+      "admin": "System Administrator (Admin)"
+    }
+  },
+  "LoginPage": {
+    "title": "Smart Grocery System",
+    "subtitle": "Sign in to continue to the dashboard",
+    "usernamePlaceholder": "Enter username",
+    "passwordPlaceholder": "Enter password",
+    "verifying": "Verifying...",
+    "login": "Sign In",
+    "demoAccounts": "Default Demo Accounts:"
+  },
+  "DrawerPage": {
+    "title": "Cash Drawer Management",
+    "sessionStatus": "Current Session Status:",
+    "statusOpen": "Open",
+    "statusClosed": "Closed",
+    "exchangeCurrency": "Currency Exchange",
+    "currentBalance": "Current Drawer Balance",
+    "distributionTitle": "Cash Denominations & Inventory",
+    "confirmAndOpen": "Confirm Fill & Open Drawer",
+    "clearAndClose": "Settle & Close Drawer",
+    "withdrawTitle": "Process Drawer Withdrawal",
+    "withdrawAmount": "Withdrawal Amount:",
+    "withdrawReason": "Reason for Withdrawal:",
+    "recordWithdraw": "Record Withdrawal"
+  },
+  "InventoryPage": {
+    "title": "Warehouse & Inventory Management",
+    "totalProducts": "Total Products:",
+    "addProduct": "+ Add New Product",
+    "table": {
+      "cost": "Cost",
+      "smartDiscount": "Smart Discount",
+      "availableStock": "Available Stock",
+      "remaining": "remaining",
+      "pcs": "pcs",
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  },
+  "ProfilePage": {
+    "userRole": "User Role:",
+    "phone": "Contact / Phone Number:",
+    "userId": "Personal ID:",
+    "creditBalance": "Available Credit Balance:"
+  },
+  "ReportsPage": {
+    "salesReport": "Sales Report",
+    "inventoryReport": "Inventory Report",
+    "debtsReport": "Debts Report",
+    "printReport": "Print Report"
+  },
+  "SettingsPage": {
+    "table": {
+      "name": "Name"
+    },
+    "rechargeModal": {
+      "placeholder": "0.00"
+    }
+  },
+  "UsersPage": {
+    "title": "User & Employee Management",
+    "subtitle": "View employee accounts and assigned roles",
+    "noUsersFound": "No users currently registered in the system",
+    "form": {
+      "phoneWithContact": "Phone & Contact Number:",
+      "roleLeader": "Position / Leadership Role:",
+      "creditLimitSar": "Credit Limit (SAR):"
+    },
+    "table": {
+      "name": "Username",
+      "phone": "Phone Number",
+      "role": "Position / Role",
+      "currentBalance": "Current Balance",
+      "debtBalance": "Debt Balance",
+      "createdAt": "Created Date"
+    }
+  },
+  "header": {
+    "welcome": "Welcome,",
+    "availableDebtCredit": "Available Debt Balance:"
+  },
+  "sidebar": {
+    "systemTitle": "Grocery Management System",
+    "expand": "Expand Menu",
+    "collapse": "Collapse Menu",
+    "logout": "Log Out",
+    "nav": {
+      "invoices": "Invoices & POS",
+      "drawer": "Drawer Management",
+      "inventory": "Inventory & Products",
+      "users": "Users & Employees",
+      "reports": "Reports & Analytics",
+      "settings": "Settings",
+      "profile": "Profile"
+    }
+  },
+  "pos": {
+    "invoiceTotal": "Invoice Amount:",
+    "riyal": "SAR",
+    "receivedDenominationsLabel": "Cash Denominations Received from Customer:",
+    "totalReceived": "Total Received:",
+    "changeDue": "Change Due:",
+    "confirmPaymentAndPrint": "Confirm Payment & Print Receipt",
+    "changePaymentMethod": "Change Payment Method (Card / Credit)",
+    "cancelCashPayment": "Cancel Cash Payment",
+    "errors": {
+      "insufficientTotalCash": "Total drawer balance is insufficient to give change!",
+      "shortageAmount": "Drawer shortage amount:",
+      "depositNewCash": "Deposit New Cash to Drawer",
+      "unavailableDenominations": "Total balance is sufficient, but exact cash denominations are unavailable for change!",
+      "unableToReturn": "Unable to return:",
+      "requestExchange": "Request Exchange (Swap Denominations)"
+    }
+  },
+  "exchange": {
+    "instructions": "Specify the denominations taken from the drawer and the new ones added so that the total values match exactly:",
+    "takenFromDrawer": "Bills Taken from Drawer:",
+    "addedToDrawer": "New Bills Added to Drawer:",
+    "totalTaken": "Total Taken:",
+    "totalAdded": "Total Added:",
+    "differenceNote": "(The taken amount must exactly equal the added amount)",
+    "confirmExchange": "Confirm Exchange"
+  },
+  "changeModal": {
+    "title": "Calculate Change & Return",
+    "total": "Total",
+    "received": "Received",
+    "changeDue": "Change Due",
+    "breakdownTitle": "Denominations to give to customer:",
+    "countUnit": "Qty: {{count}}",
+    "noDenominationsWarning": "Warning: Insufficient cash denominations available in drawer to cover exact change!",
+    "confirmButton": "Handed Over & Complete Invoice"
+  },
+  "exchangeModal": {
+    "title": "Exchange & Swap Currency Denominations",
+    "takenTitle": "Denominations Withdrawn from Drawer:",
+    "addedTitle": "Denominations Added to Drawer:",
+    "withdrawn": "Withdrawn:",
+    "added": "Added:",
+    "mismatchWarning": "Notice: The value of withdrawn bills must exactly equal the value of added bills!",
+    "confirmButton": "Confirm Currency Exchange",
+    "errors": {
+      "insufficientStockTitle": "Balance Error",
+      "insufficientStockMsg": "Requested quantity for {{value}} SAR bill is not available in drawer!",
+      "generalErrorTitle": "Error",
+      "defaultErrorMsg": "An error occurred during exchange",
+      "noteDetails": "Withdrawn value {{taken}} and added value {{added}}"
+    }
+  },
+  "denominations": {
+    "total": "Total:",
+    "grandTotal": "Total Sum of Denominations:"
+  },
+  "creditPaymentModal": {
+    "title": "Confirm Deferred Payment (Credit)",
+    "selectClient": "Select Client:",
+    "defaultSelect": "-- Select from list --",
+    "clientOptionLabel": "{{username}} ({{phone}}) - Balance: {{balance}}",
+    "requiredAmount": "Required Amount:",
+    "availableBalance": "Client Available Balance:",
+    "passwordLabel": "Client Password to Confirm Purchase:",
+    "passwordPlaceholder": "Enter client password",
+    "confirm": "Confirm Deduction & Purchase",
+    "confirming": "Processing...",
+    "errors": {
+      "selectUser": "Please select a client",
+      "insufficientBalance": "Available balance ({{balance}}) is insufficient for total invoice amount",
+      "incorrectPassword": "Incorrect password",
+      "defaultError": "An error occurred during credit sale process"
+    }
+  },
+  "invoiceTabs": {
+    "invoicePrefix": "Invoice #",
+    "newTab": "+ New"
+  },
+  "productGrid": {
+    "searchPlaceholder": "Search by barcode or product name...",
+    "availableStock": "{{count}} available"
+  },
+  "printTemplate": {
+    "printDate": "Print Date"
+  },
+  "ui": {
+    "alertAgree": "OK",
+    "themeDark": "Dark Theme",
+    "themeLight": "Light Theme"
+  },
+  "alerts": {
+    "successTitle": "Success",
+    "errorTitle": "Error",
+    "warningTitle": "Warning",
+    "operationSuccessTitle": "Operation Completed",
+    "confirmDeleteProduct": "Are you sure you want to delete this product?"
+  },
+  "drawerPage": {
+    "alerts": {
+      "openSuccess": "Cash drawer filled and opened successfully",
+      "closeSuccess": "Cash drawer settled and closed successfully",
+      "withdrawSuccess": "Withdrawal transaction added successfully",
+      "exchangeSuccess": "Denominations swapped and drawer updated successfully"
+    }
+  },
+  "loginPage": {
+    "errors": {
+      "initDataError": "Error importing initial data:",
+      "emptyFields": "Please enter both username and password",
+      "invalidCredentials": "Invalid username or password",
+      "loginFailed": "An error occurred while attempting to log in"
+    }
+  },
+  "reportsPage": {
+    "sales": {
+      "title": "Comprehensive Sales Report",
+      "headers": {
+        "invoiceNumber": "Invoice No.",
+        "total": "Total",
+        "paymentMethod": "Payment Method",
+        "date": "Date"
+      },
+      "summary": {
+        "totalSales": "Total Sales"
+      }
+    },
+    "inventory": {
+      "title": "Warehouse & Inventory Stock Audit Report",
+      "headers": {
+        "stock": "Stock"
+      },
+      "summary": {
+        "totalCost": "Total Inventory Cost Value"
+      }
+    },
+    "debts": {
+      "title": "Customer Debts & Balances Report",
+      "headers": {
+        "availableBalance": "Available Balance"
+      },
+      "summary": {
+        "totalAvailableDebts": "Total Available Credit Balances"
+      }
+    }
+  },
+  "usersPage": {
+    "alerts": {
+      "addUserSuccess": "User added successfully",
+      "addUserError": "An error occurred while adding the user",
+      "rechargeSuccess": "Balance recharged successfully",
+      "invalidAmountInfo": "Please enter a valid amount greater than zero"
+    }
+  },
+  "drawerService": {
+    "errors": {
+      "sessionAlreadyOpen": "An open drawer session already exists. Settle drawer first.",
+      "noOpenSession": "There is no open drawer session to perform this operation.",
+      "sessionClosedOrNotFound": "Session not found or already closed."
+    },
+    "exchangeNote": "Currency denomination exchange: {{details}}"
+  },
+  "invoiceService": {
+    "errors": {
+      "outOfStock": "Stock quantity unavailable for product: {{productName}}",
+      "missingClientForCredit": "A client must be selected for deferred payment"
+    }
+  },
+  "productService": {
+    "errors": {
+      "duplicateBarcode": "Duplicate barcode for another product",
+      "productNotFound": "Product not found",
+      "insufficientStock": "Insufficient stock quantity available. Remaining in store: {{available}}"
+    }
+  },
+  "useInvoiceTabsStore": {
+    "defaultTabTitle": "Invoice 1"
+  }
+}
